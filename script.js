@@ -19,11 +19,9 @@ window.alert = function (message, timeout = 10000) {
   color: beige;
   font-size: 18px;
   font-weight: 600;
-  border-radius: 25px;
-  border-left: dotted rgb(80, 12, 12);
-  border-top: dotted rgb(80, 12, 12);
-  border-right: dotted rgb(141, 134, 134);
-  border-bottom: dotted rgb(141, 134, 134);`
+  border-radius: 95px;
+ 
+  border: dotted rgb(141, 134, 134);`
   );
 
   alert.classList.add(`alert`);
@@ -34,13 +32,11 @@ window.alert = function (message, timeout = 10000) {
   top: 20%;
   left: 30%;
   padding:20px;
-  border-left: dotted rgb(80, 12, 12);
-  border-top: dotted rgb(80, 12, 12);
-  border-right: dotted rgb(141, 134, 134);
-  border-bottom: dotted rgb(141, 134, 134);;
+  
+  border: dotted rgb(141, 134, 134);
   border-radius: 35px;
   
-  background-color: rgb(71, 49, 13);
+  background-color: rgb(80, 12, 12);
   width: 450px;
   height: 250px;
   display: flex;
